@@ -73,8 +73,14 @@ export function MagneticButton({
   );
 
   if (href) {
+    const external = /^https?:\/\//.test(href);
     return (
-      <a href={href} onClick={onClick} className="inline-flex">
+      <a
+        href={href}
+        onClick={onClick}
+        className="inline-flex"
+        {...(external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
+      >
         {Inner}
       </a>
     );
