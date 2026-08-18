@@ -44,10 +44,15 @@ export function Navbar() {
           <a
             href="#top"
             className={cn(
-              "font-display text-xl font-semibold tracking-tightest transition-colors duration-500",
+              "flex items-center gap-2.5 font-display text-xl font-semibold tracking-tightest transition-colors duration-500",
               scrolled ? "text-lucky-navy" : "text-white"
             )}
           >
+            <img
+              src="/media/logo-icon.png"
+              alt="LuckyMove"
+              className="h-8 w-8 object-contain md:h-9 md:w-9"
+            />
             Lucky<span className="text-lucky-yellow">Move</span>
           </a>
 
@@ -104,7 +109,12 @@ export function Navbar() {
             transition={{ duration: 0.4, ease: [0.16, 1, 0.3, 1] }}
           >
             <div className="flex items-center justify-between">
-              <span className="font-display text-xl font-semibold tracking-tightest">
+              <span className="flex items-center gap-2.5 font-display text-xl font-semibold tracking-tightest">
+                <img
+                  src="/media/logo-icon.png"
+                  alt="LuckyMove"
+                  className="h-8 w-8 object-contain"
+                />
                 Lucky<span className="text-lucky-yellow">Move</span>
               </span>
               <button

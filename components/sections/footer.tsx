@@ -27,8 +27,13 @@ export function Footer() {
           <div className="md:col-span-4">
             <a
               href="#top"
-              className="font-display text-2xl font-semibold tracking-tightest"
+              className="flex items-center gap-2.5 font-display text-2xl font-semibold tracking-tightest"
             >
+              <img
+                src="/media/logo-icon.png"
+                alt="LuckyMove"
+                className="h-9 w-9 object-contain"
+              />
               Lucky<span className="text-lucky-blue">Move</span>
             </a>
             <p className="mt-5 max-w-xs text-[15px] leading-relaxed text-lucky-navy/55">
