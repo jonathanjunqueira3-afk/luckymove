@@ -56,11 +56,11 @@ export function Cta() {
             Book Your Move <ArrowUpRight className="h-4 w-4" />
           </MagneticButton>
           <MagneticButton
-            href="https://wa.me/56982837367?text=Hi%20LuckyMove!%20I%27d%20like%20a%20quote%20for%20my%20move."
+            href="tel:+61406641518"
             variant="ghost"
             className="text-white"
           >
-            <PhoneCall className="h-4 w-4" /> +56 9 8283 7367
+            <PhoneCall className="h-4 w-4" /> +61 406 641 518
           </MagneticButton>
         </motion.div>
       </div>
