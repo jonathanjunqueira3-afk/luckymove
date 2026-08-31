@@ -3,6 +3,14 @@
 import { ArrowUpRight } from "lucide-react";
 import { NAV_LINKS } from "@/lib/content";
 
+const FOOTER_HREFS: Record<string, string> = {
+  About: "/about",
+  Reviews: "/#reviews",
+  Contact: "/#contact",
+  Careers: "/#contact",
+  Insurance: "/#faq",
+};
+
 const COLUMNS = [
   {
     title: "Services",
@@ -26,7 +34,7 @@ export function Footer() {
         <div className="grid gap-12 border-t border-lucky-navy/10 pt-16 md:grid-cols-12">
           <div className="md:col-span-4">
             <a
-              href="#top"
+              href="/"
               className="flex items-center gap-2.5 font-display text-2xl font-semibold tracking-tightest"
             >
               <img
@@ -41,7 +49,7 @@ export function Footer() {
               white-glove moving for families, professionals and businesses.
             </p>
             <a
-              href="#contact"
+              href="/#contact"
               className="mt-8 inline-flex items-center gap-2 rounded-full bg-lucky-navy px-6 py-3 text-sm font-semibold text-white transition-colors duration-300 hover:bg-lucky-blue"
             >
               Get Free Quote <ArrowUpRight className="h-4 w-4" />
@@ -58,7 +66,7 @@ export function Footer() {
                   {col.links.map((link) => (
                     <li key={link}>
                       <a
-                        href="#"
+                        href={FOOTER_HREFS[link] ?? "/#services"}
                         className="group inline-flex text-[15px] text-lucky-navy/70 transition-colors duration-300 hover:text-lucky-blue"
                       >
                         <span className="relative">

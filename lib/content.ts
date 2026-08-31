@@ -209,9 +209,10 @@ export const FAQS: Faq[] = [
 ];
 
 export const NAV_LINKS = [
-  { label: "Why Us", href: "#why" },
-  { label: "Services", href: "#services" },
-  { label: "Process", href: "#process" },
-  { label: "Reviews", href: "#reviews" },
-  { label: "FAQ", href: "#faq" },
+  { label: "Why Us", href: "/#why" },
+  { label: "Services", href: "/#services" },
+  { label: "Process", href: "/#process" },
+  { label: "Reviews", href: "/#reviews" },
+  { label: "About", href: "/about" },
+  { label: "FAQ", href: "/#faq" },
 ];

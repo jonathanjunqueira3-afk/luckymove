@@ -42,7 +42,7 @@ export function Navbar() {
             )}
           />
           <a
-            href="#top"
+            href="/"
             className={cn(
               "flex items-center gap-2.5 font-display text-xl font-semibold tracking-tightest transition-colors duration-500",
               scrolled ? "text-lucky-navy" : "text-white"
@@ -74,7 +74,7 @@ export function Navbar() {
 
           <div className="flex items-center gap-3">
             <a
-              href="#contact"
+              href="/#contact"
               className={cn(
                 "hidden items-center gap-1.5 rounded-full px-5 py-2.5 text-sm font-semibold transition-all duration-300 md:inline-flex",
                 scrolled
@@ -143,7 +143,7 @@ export function Navbar() {
             </nav>
 
             <a
-              href="#contact"
+              href="/#contact"
               onClick={() => setOpen(false)}
               className="mt-auto inline-flex items-center justify-center gap-2 rounded-full bg-lucky-yellow py-4 font-semibold text-lucky-navy"
             >

@@ -85,14 +85,24 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "MovingCompany",
               name: "LuckyMove",
+              alternateName: "Lucky Move",
+              url: SITE,
+              logo: `${SITE}/media/logo-icon.png`,
+              image: `${SITE}/media/hero-poster.jpg`,
+              telephone: "+61406641518",
               description:
-                "Australia's premium removal experience for families, professionals and businesses.",
-              areaServed: "AU",
-              aggregateRating: {
-                "@type": "AggregateRating",
-                ratingValue: "5",
-                reviewCount: "1000",
+                "Sydney-based removalist company offering residential moving, furniture removals, packing and interstate moves — built around careful handling and customer care.",
+              address: {
+                "@type": "PostalAddress",
+                addressLocality: "Sydney",
+                addressRegion: "NSW",
+                addressCountry: "AU",
               },
+              areaServed: "AU",
+              founder: [
+                { "@type": "Person", name: "Jonathan" },
+                { "@type": "Person", name: "Lucas" },
+              ],
             }),
           }}
         />
