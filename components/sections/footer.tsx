@@ -42,7 +42,9 @@ export function Footer() {
                 alt="LuckyMove"
                 className="h-9 w-9 object-contain"
               />
-              Lucky<span className="text-lucky-blue">Move</span>
+              <span>
+                Lucky<span className="text-lucky-blue">Move</span>
+              </span>
             </a>
             <p className="mt-5 max-w-xs text-[15px] leading-relaxed text-lucky-navy/55">
               Australia&apos;s premium removal experience — fully insured,

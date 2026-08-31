@@ -163,8 +163,8 @@ export default function AboutPage() {
             <Reveal delay={0.15} className="relative">
               <div className="relative h-full min-h-[24rem] overflow-hidden rounded-[2rem] bg-lucky-navy md:min-h-full">
                 <img
-                  src="/media/real-2.jpg"
-                  alt="The LuckyMove crew beside the truck after completing a residential move in Sydney"
+                  src="/media/founders.jpg"
+                  alt="Jonathan and Lucas, founders of LuckyMove, in the truck between moves in Sydney"
                   className="absolute inset-0 h-full w-full object-cover"
                   loading="lazy"
                 />

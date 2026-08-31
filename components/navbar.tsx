@@ -53,7 +53,9 @@ export function Navbar() {
               alt="LuckyMove"
               className="h-8 w-8 object-contain md:h-9 md:w-9"
             />
-            Lucky<span className="text-lucky-yellow">Move</span>
+            <span>
+              Lucky<span className="text-lucky-yellow">Move</span>
+            </span>
           </a>
 
           <nav className="hidden items-center gap-9 md:flex">
@@ -115,7 +117,9 @@ export function Navbar() {
                   alt="LuckyMove"
                   className="h-8 w-8 object-contain"
                 />
-                Lucky<span className="text-lucky-yellow">Move</span>
+                <span>
+                  Lucky<span className="text-lucky-yellow">Move</span>
+                </span>
               </span>
               <button
                 onClick={() => setOpen(false)}
