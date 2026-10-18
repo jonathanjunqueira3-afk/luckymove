@@ -112,7 +112,7 @@ export const STEPS: Step[] = [
 export type Stat = { value: number; suffix: string; label: string; decimals?: number };
 
 export const STATS: Stat[] = [
-  { value: 1000, suffix: "+", label: "Successful Moves" },
+  { value: 500, suffix: "+", label: "Successful Moves" },
   { value: 5, suffix: "★", label: "Customer Rating" },
   { value: 60, suffix: "min", label: "Avg. Response Time" },
   { value: 100, suffix: "%", label: "Fully Insured" },
